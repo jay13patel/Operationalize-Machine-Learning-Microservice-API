@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/jay13patel/project-4-Docker-minikube.svg?style=svg)]/(https://github.com/jay13patel/project-4-Docker-minikube)
+[![CircleCI](https://circleci.com/gh/jay13patel/project-4-Docker-minikube.svg?style=svg)](https://github.com/jay13patel/project-4-Docker-minikube)
 
 
 ## Project 4 -- cloud devops nanodegree -- Operationalize a Machine Learning Microservice API

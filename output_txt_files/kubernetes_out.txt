@@ -1,8 +1,7 @@
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
-deployment.apps/jay-project-3 created
+Error from server (AlreadyExists): deployments.apps "jay-project-3" already exists
 NAME                             READY   STATUS    RESTARTS   AGE
-jay-project-3                    1/1     Running   0          17m
-jay-project-3-5448c6c45b-mhxh4   0/1     Pending   0          0s
+jay-project-3-5448c6c45b-sgl2g   1/1     Running   0          81s
 Forwarding from 127.0.0.1:8000 -> 80
 Handling connection for 8000
 Handling connection for 8000
@@ -10,4 +9,66 @@ Handling connection for 8000
 Handling connection for 8000
 Handling connection for 8000
 Handling connection for 8000
-
+^C * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 129-516-115
+[2020-05-16 00:07:09,688] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:09,692] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:09,692] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:09,698] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:09] "POST /predict HTTP/1.1" 200 -
+[2020-05-16 00:07:10,625] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:10,629] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:10,629] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:10,638] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:10] "POST /predict HTTP/1.1" 200 -
+[2020-05-16 00:07:11,096] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:11,099] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:11,100] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:11,105] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:11] "POST /predict HTTP/1.1" 200 -
+[2020-05-16 00:07:11,453] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:11,457] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:11,457] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:11,464] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:11] "POST /predict HTTP/1.1" 200 -
+[2020-05-16 00:07:15,186] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:15,191] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:15,192] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:15,198] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:15] "POST /predict HTTP/1.1" 200 -
+[2020-05-16 00:07:15,916] INFO in app: JSON payload: 
+{json_payload}
+[2020-05-16 00:07:15,917] INFO in app: Inference payload DataFrame: 
+{inference_payload}
+[2020-05-16 00:07:15,918] INFO in app: Scaling Payload: 
+{payload}
+[2020-05-16 00:07:15,921] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+127.0.0.1 - - [16/May/2020 00:07:15] "POST /predict HTTP/1.1" 200 -

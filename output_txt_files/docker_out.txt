@@ -6,76 +6,42 @@
  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
  * Restarting with stat
  * Debugger is active!
- * Debugger PIN: 538-922-365
-[2020-05-15 21:36:26,397] INFO in app: JSON payload: 
+ * Debugger PIN: 249-898-123
+[2020-05-15 23:56:18,449] INFO in app: JSON payload: 
 {json_payload}
-[2020-05-15 21:36:26,404] INFO in app: Inference payload DataFrame: 
+[2020-05-15 23:56:18,451] INFO in app: Inference payload DataFrame: 
 {inference_payload}
-[2020-05-15 21:36:26,404] INFO in app: Scaling Payload: 
+[2020-05-15 23:56:18,451] INFO in app: Scaling Payload: 
 {payload}
-172.17.0.1 - - [15/May/2020 21:36:26] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:36:27,094] INFO in app: JSON payload: 
+[2020-05-15 23:56:18,454] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [15/May/2020 23:56:18] "POST /predict HTTP/1.1" 200 -
+[2020-05-15 23:56:21,978] INFO in app: JSON payload: 
 {json_payload}
-[2020-05-15 21:36:27,102] INFO in app: Inference payload DataFrame: 
+[2020-05-15 23:56:21,982] INFO in app: Inference payload DataFrame: 
 {inference_payload}
-[2020-05-15 21:36:27,102] INFO in app: Scaling Payload: 
+[2020-05-15 23:56:21,982] INFO in app: Scaling Payload: 
 {payload}
-172.17.0.1 - - [15/May/2020 21:36:27] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:36:27,683] INFO in app: JSON payload: 
+[2020-05-15 23:56:21,988] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [15/May/2020 23:56:21] "POST /predict HTTP/1.1" 200 -
+[2020-05-15 23:56:22,731] INFO in app: JSON payload: 
 {json_payload}
-[2020-05-15 21:36:27,686] INFO in app: Inference payload DataFrame: 
+[2020-05-15 23:56:22,736] INFO in app: Inference payload DataFrame: 
 {inference_payload}
-[2020-05-15 21:36:27,687] INFO in app: Scaling Payload: 
+[2020-05-15 23:56:22,736] INFO in app: Scaling Payload: 
 {payload}
-172.17.0.1 - - [15/May/2020 21:36:27] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:36:28,340] INFO in app: JSON payload: 
+[2020-05-15 23:56:22,744] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [15/May/2020 23:56:22] "POST /predict HTTP/1.1" 200 -
+[2020-05-15 23:56:23,378] INFO in app: JSON payload: 
 {json_payload}
-[2020-05-15 21:36:28,348] INFO in app: Inference payload DataFrame: 
+[2020-05-15 23:56:23,384] INFO in app: Inference payload DataFrame: 
 {inference_payload}
-[2020-05-15 21:36:28,349] INFO in app: Scaling Payload: 
+[2020-05-15 23:56:23,384] INFO in app: Scaling Payload: 
 {payload}
-172.17.0.1 - - [15/May/2020 21:36:28] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:36:29,259] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:36:29,263] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:36:29,264] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:36:29] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:36:38,196] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:36:38,201] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:36:38,201] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:36:38] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:37:35,987] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:37:35,992] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:37:35,992] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:37:36] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:37:36,574] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:37:36,577] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:37:36,577] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:37:36] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:37:58,486] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:37:58,489] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:37:58,489] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:37:58] "POST /predict HTTP/1.1" 200 -
-[2020-05-15 21:38:00,516] INFO in app: JSON payload: 
-{json_payload}
-[2020-05-15 21:38:00,522] INFO in app: Inference payload DataFrame: 
-{inference_payload}
-[2020-05-15 21:38:00,523] INFO in app: Scaling Payload: 
-{payload}
-172.17.0.1 - - [15/May/2020 21:38:00] "POST /predict HTTP/1.1" 200 -
+[2020-05-15 23:56:23,397] INFO in app: Prediction Returned Log: 
+[20.35373177134412]
+172.17.0.1 - - [15/May/2020 23:56:23] "POST /predict HTTP/1.1" 200 -
 
 
